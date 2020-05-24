@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title.png" translatesAutoresizingMaskIntoConstraints="NO" id="zjN-pD-2wL">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="480" id="R6p-F1-pFU"/>
+                        <constraint firstAttribute="width" secondItem="zjN-pD-2wL" secondAttribute="height" multiplier="1:1" id="zMV-P8-FpJ"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="R6p-F1-pFU"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="zjN-pD-2wL" secondAttribute="centerX" id="Iat-5B-1Ef"/>
+                <constraint firstItem="zjN-pD-2wL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Kat-1J-UY0"/>
+                <constraint firstAttribute="trailing" secondItem="zjN-pD-2wL" secondAttribute="trailing" id="Zsx-sT-dnR"/>
+                <constraint firstAttribute="centerY" secondItem="zjN-pD-2wL" secondAttribute="centerY" id="fy4-m8-EzK"/>
+                <constraint firstAttribute="centerY" secondItem="zjN-pD-2wL" secondAttribute="centerY" id="s8B-M8-VVj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Iat-5B-1Ef"/>
+                    <exclude reference="s8B-M8-VVj"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="404" y="445"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Title.png" width="1282" height="1282"/>
+    </resources>
+</document>
